@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: book-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    environment:
+      enabled: true
